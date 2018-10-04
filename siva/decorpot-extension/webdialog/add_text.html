@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="add_text.js"></script>
+	<style type="text/css">
+		body {
+			font-family: 'Poppins', sans-serif !important;
+		}
+		.main-heading {
+			border-bottom: 2px solid #ccc;
+			background: #333;
+			color: white;
+		}
+		.input-form {
+			margin: 20px 10px;
+		}
+		input {
+			font-size: 14px !important;
+			padding: 10px 5px 10px 5px !important;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row main-heading">
+			<div class="col-md-12"><p><h4>Decorpot - Add Lamination</h4></p></div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 input-form">
+				<div class="form-group">
+				<div class="form-group">
+					<input type="text" name="laminate_name" id="laminate_name" placeholder="Laminate Name" class="form-control" autofocus>
+				</div>
+				<div class="form-group">
+					<input type="text" name="laminate_code" id="laminate_code" placeholder="Laminate Code" class="form-control">
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-12" style="text-align: center;">
+			<div class="form-group">
+				<a href="#" class="btn btn-info" onclick="update_text();">Update&emsp;<i class="fa fa-send-o"></i></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
